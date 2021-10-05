@@ -3,7 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/administrator/AndroidStudioProjects/FirebaseCrudAppmaster/app/src/main/res/drawable/button_back.xml" value="0.1" />
+        <entry key="..\:/Users/administrator/AndroidStudioProjects/FirebaseCrudAppmaster/app/src/main/res/drawable/ic_add.xml" value="0.1" />
+        <entry key="..\:/Users/administrator/AndroidStudioProjects/FirebaseCrudAppmaster/app/src/main/res/drawable/ic_logout.xml" value="0.1" />
+        <entry key="..\:/Users/administrator/AndroidStudioProjects/FirebaseCrudAppmaster/app/src/main/res/drawable/progress_back.xml" value="0.1" />
+        <entry key="..\:/Users/administrator/AndroidStudioProjects/FirebaseCrudAppmaster/app/src/main/res/drawable/rounded_drawable.xml" value="0.1" />
+        <entry key="..\:/Users/administrator/AndroidStudioProjects/FirebaseCrudAppmaster/app/src/main/res/layout/activity_adicionar_curso.xml" value="0.2504528985507246" />
+        <entry key="..\:/Users/administrator/AndroidStudioProjects/FirebaseCrudAppmaster/app/src/main/res/layout/activity_editar_curso.xml" value="0.2504528985507246" />
+        <entry key="..\:/Users/administrator/AndroidStudioProjects/FirebaseCrudAppmaster/app/src/main/res/layout/activity_login.xml" value="0.2504528985507246" />
         <entry key="..\:/Users/administrator/AndroidStudioProjects/FirebaseCrudAppmaster/app/src/main/res/layout/activity_main.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/administrator/AndroidStudioProjects/FirebaseCrudAppmaster/app/src/main/res/layout/activity_registrar.xml" value="0.2504528985507246" />
+        <entry key="..\:/Users/administrator/AndroidStudioProjects/FirebaseCrudAppmaster/app/src/main/res/layout/bottom_sheet_layout.xml" value="0.221875" />
+        <entry key="..\:/Users/administrator/AndroidStudioProjects/FirebaseCrudAppmaster/app/src/main/res/layout/course_rv_item.xml" value="0.221875" />
+        <entry key="..\:/Users/administrator/AndroidStudioProjects/FirebaseCrudAppmaster/app/src/main/res/menu/menu_main.xml" value="0.221875" />
       </map>
     </option>
   </component>
