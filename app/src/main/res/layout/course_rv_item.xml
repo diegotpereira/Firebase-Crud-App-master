@@ -22,7 +22,7 @@
 
         <!-- visualização de texto para o nome do curso-->
         <TextView
-            android:id="@+id/idTVCOurseName"
+            android:id="@+id/idTVCourseName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/idIVCourse"
@@ -30,7 +30,7 @@
             android:layout_toStartOf="@id/idTVCousePrice"
             android:layout_toLeftOf="@id/idTVCousePrice"
             android:padding="4dp"
-            android:text="Course Name"
+            android:text="Nome do Curso"
             android:textColor="@color/white"
             android:textSize="15sp"
             android:textStyle="bold" />
@@ -46,7 +46,7 @@
             android:layout_margin="3dp"
             android:gravity="center"
             android:padding="4dp"
-            android:text="Price"
+            android:text="Preço"
             android:textColor="@color/white"
             android:textSize="15sp"
             android:textStyle="bold" />

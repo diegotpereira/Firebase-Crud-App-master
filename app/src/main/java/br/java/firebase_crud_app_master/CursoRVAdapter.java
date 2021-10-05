@@ -81,7 +81,7 @@ public class CursoRVAdapter extends RecyclerView.Adapter<CursoRVAdapter.ViewHold
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             cursoIV = itemView.findViewById(R.id.idIVCourse);
-            cursoTela = itemView.findViewById(R.id.idTVCOurseName);
+            cursoTela = itemView.findViewById(R.id.idTVCourseName);
             cursoPrecoTela = itemView.findViewById(R.id.idTVCousePrice);
         }
     }

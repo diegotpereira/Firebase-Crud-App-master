@@ -194,7 +194,7 @@ public class MainActivity extends AppCompatActivity implements CursoRVAdapter.Cu
         // na linha abaixo, estamos criando variáveis para
         // nossa visão de texto e visão de imagem dentro da folha inferior
         // and initialing them with their ids.
-        TextView cursoNomeTela = layout.findViewById(R.id.idTVCOurseName);
+        TextView cursoNomeTela = layout.findViewById(R.id.idTVCourseName);
         TextView cursoDescTela = layout.findViewById(R.id.idTVCourseDesc);
         TextView adequadoParaTela = layout.findViewById(R.id.idTVSuitedFor);
         TextView precoTela = layout.findViewById(R.id.idTVCoursePrice);

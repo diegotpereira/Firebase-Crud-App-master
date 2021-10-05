@@ -16,7 +16,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="140dp"
         android:layout_marginEnd="20dp"
-        android:hint="Enter User Name"
+        android:hint="Insira Nome de Usuário"
         android:padding="5dp"
         android:textColorHint="@color/white"
         app:hintTextColor="@color/white">
@@ -43,7 +43,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="20dp"
-        android:hint="Enter your Password"
+        android:hint="Digite sua senha"
         android:padding="5dp"
         android:textColorHint="@color/white"
         app:hintTextColor="@color/white">
@@ -70,7 +70,7 @@
         android:layout_marginTop="40dp"
         android:layout_marginEnd="25dp"
         android:background="@drawable/button_back"
-        android:text="Login"
+        android:text="Entrar"
         android:textAllCaps="false" />
 
     <!--visualização de texto para criar uma nova conta-->
@@ -82,7 +82,7 @@
         android:layout_marginTop="40dp"
         android:gravity="center"
         android:padding="10dp"
-        android:text="New User ? Registre Here"
+        android:text="Novo usuário ? Registre-se aqui"
         android:textAlignment="center"
         android:textAllCaps="false"
         android:textColor="@color/white"

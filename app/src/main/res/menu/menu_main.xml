@@ -5,6 +5,6 @@
     <item
         android:id="@+id/idLogOut"
         android:icon="@drawable/ic_logout"
-        android:title="Log Out" />
+        android:title="Sair" />
 
 </menu>

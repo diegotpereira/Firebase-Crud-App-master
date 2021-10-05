@@ -23,9 +23,9 @@ public class LoginActivity extends AppCompatActivity {
 
     // criando variável para edição e visualização de texto,
     // botão, barra de progresso e autenticação do firebase.
-    private TextInputEditText userNameEdit, passwordEdt;
+    private TextInputEditText userNameEdt, passwordEdt;
     private Button loginBtn;
-    private TextView newUseTv;
+    private TextView newUserTV;
     private FirebaseAuth mAuth;
     private ProgressBar loadingPB;
 
@@ -35,15 +35,15 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
         // inicializando todos as variáveis
-        userNameEdit = findViewById(R.id.idEdtUserName);
+        userNameEdt = findViewById(R.id.idEdtUserName);
         passwordEdt = findViewById(R.id.idEdtPassword);
         loginBtn = findViewById(R.id.idBtnLogin);
-        newUseTv = findViewById(R.id.idTVNewUser);
+        newUserTV = findViewById(R.id.idTVNewUser);
         mAuth = FirebaseAuth.getInstance();
         loadingPB = findViewById(R.id.idPBLoading);
 
         // adicionando um listener(ouvinte) de clique para nossa nova tv de usuário.
-        newUseTv.setOnClickListener(new View.OnClickListener() {
+        newUserTV.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 // na linha abaixo abrindo a activity de login.
@@ -60,7 +60,7 @@ public class LoginActivity extends AppCompatActivity {
                 loadingPB.setVisibility(View.VISIBLE);
 
                 // obtendo dados de nosso texto de edição na linha abaixo.
-                String email = userNameEdit.getText().toString();
+                String email = userNameEdt.getText().toString();
                 String password = passwordEdt.getText().toString();
 
                 // na linha abaixo, validando a entrada de texto.
@@ -76,7 +76,7 @@ public class LoginActivity extends AppCompatActivity {
                         // na linha abaixo estamos verificando se a tarefa foi bem sucedida ou não.
                         if (task.isSuccessful()) {
                             // na linha abaixo, estamos ocultando nossa barra de progresso.
-                            loadingPB.setVisibility((View.GONE));
+                            loadingPB.setVisibility(View.GONE);
                             Toast.makeText(LoginActivity.this, "Login bem sucedido..", Toast.LENGTH_SHORT).show();
 
                             // na linha abaixo estamos abrindo nossa activity principal.
@@ -98,12 +98,12 @@ public class LoginActivity extends AppCompatActivity {
     protected void  onStart() {
         super.onStart();
 
-        // no método de início verificando se,
-        // o usuário já está conectado
+        // no método de início verificando se o usuário já está conectado.
         FirebaseUser user = mAuth.getCurrentUser();
+
         if (user != null) {
-            // se o usuário não for nulo, então nós somos
-            // abrindo uma atividade principal na linha abaixo.
+
+            // se o usuário não for nulo, estamos abrindo uma atividade principal na linha abaixo.
             Intent i = new Intent(LoginActivity.this, MainActivity.class);
             startActivity(i);
             this.finish();
