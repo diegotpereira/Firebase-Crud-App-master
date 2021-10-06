@@ -35,7 +35,7 @@ public class AdicionarCursoActivity extends AppCompatActivity {
 
         // inicializando todas as variáveis
         addCourseBtn = findViewById(R.id.idBtnAddCourse);
-        courseNameEdt = findViewById(R.id.idTILCourseName);
+        courseNameEdt = findViewById(R.id.idEdtCourseName);
         courseDescEdt = findViewById(R.id.idEdtCourseDescription);
         coursePriceEdt = findViewById(R.id.idEdtCoursePrice);
         bestSuitedEdt = findViewById(R.id.idEdtSuitedFor);

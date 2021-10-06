@@ -3,7 +3,7 @@ package br.java.firebase_crud_app_master;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-public class CursoRVModal {
+public class CursoRVModal implements  Parcelable{
 
     // criando variáveis para nossos diferentes campos.
     private String cursoNome;
@@ -27,7 +27,7 @@ public class CursoRVModal {
         this.cursoId = cursoId;
     }
 
-    //    @Override
+    @Override
     public  int describeContents() {
         return 0;
     }
@@ -98,7 +98,7 @@ public class CursoRVModal {
         cursoLink = in.readString();
     }
 
-    public static  final Parcelable.Creator<CursoRVModal> CREATOR = new Parcelable.Creator<CursoRVModal>() {
+    public static  final Creator<CursoRVModal> CREATOR = new Creator<CursoRVModal>() {
         @Override
         public CursoRVModal createFromParcel(Parcel in) {
             return new CursoRVModal(in);
@@ -110,7 +110,7 @@ public class CursoRVModal {
         }
     };
 
-//    @Override
+    @Override
     public void writeToParcel(Parcel dest, int flags) {
         dest.writeString(cursoNome);
         dest.writeString(cursoId);

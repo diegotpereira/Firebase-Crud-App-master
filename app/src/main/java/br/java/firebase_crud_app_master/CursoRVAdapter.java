@@ -1,6 +1,5 @@
 package br.java.firebase_crud_app_master;
 
-import android.annotation.SuppressLint;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -41,7 +40,7 @@ public class CursoRVAdapter extends RecyclerView.Adapter<CursoRVAdapter.ViewHold
     }
 
     @Override
-    public void onBindViewHolder(@NonNull CursoRVAdapter.ViewHolder holder, @SuppressLint("RecyclerView") int position) {
+    public void onBindViewHolder(@NonNull CursoRVAdapter.ViewHolder holder, int position) {
 
         // definir dados para nosso item de exibição de reciclador na linha abaixo.
         CursoRVModal cursoRVModal = cursoRVModalArrayList.get(position);

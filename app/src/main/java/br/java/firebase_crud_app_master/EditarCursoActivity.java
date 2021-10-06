@@ -48,6 +48,8 @@ public class EditarCursoActivity extends AppCompatActivity {
         cursoLinkEdt = findViewById(R.id.idEdtCourseLink);
         loadingPB = findViewById(R.id.idPBLoading);
 
+        firebaseDatabase = FirebaseDatabase.getInstance();
+
         // na linha abaixo estamos obtendo nossa classe modal pela qual passamos.
         cursoRVModal = getIntent().getParcelableExtra("curso");
         Button deletarCursoBtn = findViewById(R.id.idBtnDeleteCourse);

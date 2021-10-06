@@ -218,7 +218,7 @@ public class MainActivity extends AppCompatActivity implements CursoRVAdapter.Cu
                 Intent i = new Intent(MainActivity.this, EditarCursoActivity.class);
 
                 // na linha abaixo estamos passando nosso modal de curso
-                i.putExtra("curso", String.valueOf(modal));
+                i.putExtra("curso", modal);
                 startActivity(i);
             }
         });
